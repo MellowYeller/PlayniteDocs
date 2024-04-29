@@ -23,8 +23,8 @@ Extensions fall under several categories of extended functionality that are avai
 - `Reacting to game events` - ability to execute code when various [game events](events.md) occur, like when game is started or stopped for example.
 - `Adding new UI elements` - ability to add new [UI elements](ui.md) to various views and panels.
 - `Injecting game actions` - gives ability to "inject" new Play, Install and Uninstall [game actions](gameActions.md) in real-time.
-- `Library importer` - provides automatic import of games from various sources. For example all currently supported external clients (Steam, GOG, Origin etc.) [are implemented](https://github.com/JosefNemec/Playnite/tree/master/source/Plugins) via this extension type.
-- `Metadata provider` - provides metadata for games in Playnite. Our default metadata provider, IGDB.com, is also [implemented as a metadata plugin](https://github.com/JosefNemec/Playnite/tree/master/source/Plugins/IGDBMetadata).
+- `Library importer` - provides automatic import of games from various sources. For example all currently supported external clients (Steam, GOG, Origin etc.) [are implemented](https://github.com/JosefNemec/PlayniteExtensions) via this extension type.
+- `Metadata provider` - provides metadata for games in Playnite. Our default metadata provider, IGDB.com, is also [implemented as a metadata plugin](https://github.com/JosefNemec/PlayniteExtensions/tree/master/source/Metadata/IGDBMetadata).
 
 > [!WARNING] 
 > Extension installation and update always replaces the entire extension directory completely. Meaning that any files that are not part of the installation package will be lost during installation process! It is highly recommended to store generated files in a separate extensions data folder. See [Data directories](dataDirectory.md) page to learn more about extension directories.
